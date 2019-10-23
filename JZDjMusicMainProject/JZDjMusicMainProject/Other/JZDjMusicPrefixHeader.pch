@@ -1,0 +1,30 @@
+//
+//  JZDjMusicPrefixHeader.pch
+//  JZDjMusicMainProject
+//
+//  Created by wapushidai on 2019/10/23.
+//  Copyright © 2019 WX. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <YYKit/YYKit.h>
+#import <JZDjCommon/WEConstant.h>
+#import <JZDjCommon/WEFrameUtil.h>
+#import <JZDjCommon/JZDjMacros.h>
+#import <JZDjCommon/WEBaseCell.h>
+#import <JZDjCommon/JZDjAppDelegate.h>
+#import <JZDjCommon/GKPrefixHeader.pch>
+#import <JZDjLib/UIViewController+Swizzling.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
+#import <SVProgressHUD.h>
+
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
