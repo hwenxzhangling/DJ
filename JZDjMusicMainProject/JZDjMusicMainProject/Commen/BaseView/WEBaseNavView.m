@@ -65,7 +65,8 @@
         self.leftBtn.frame = CGRectMake(10, STATUS_BAR_HEIGHT-20, NAV_BAR_HEIGHT, NAV_BAR_HEIGHT);
         self.rightBtn.frame = CGRectMake(self.width-60-15, STATUS_BAR_HEIGHT-20, 60, NAV_BAR_HEIGHT);
         self.lineLayer.frame = CGRectMake(0, self.height-0.5, self.width, 0.5);
-    }else
+    }
+    else
     {
         self.titleLabel.frame = CGRectMake((self.width-200)/2, STATUS_BAR_HEIGHT, 200, NAV_BAR_HEIGHT);
         self.leftBtn.frame = CGRectMake(10, STATUS_BAR_HEIGHT, NAV_BAR_HEIGHT, NAV_BAR_HEIGHT);

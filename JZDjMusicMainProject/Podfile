@@ -10,6 +10,7 @@ target 'JZDjMusicMainProject' do
     pod 'SDWebImage'
     pod 'SVProgressHUD'
     pod 'LYEmptyView'
+    pod 'FreeStreamer'
 end
 
 

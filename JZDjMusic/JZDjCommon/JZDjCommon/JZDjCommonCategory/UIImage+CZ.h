@@ -9,10 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (CZ)
-
-
-
-
 /**
  *  返回一张自由拉伸的图片
  */

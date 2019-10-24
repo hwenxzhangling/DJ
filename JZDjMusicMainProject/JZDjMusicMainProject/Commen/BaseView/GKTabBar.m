@@ -130,12 +130,21 @@
         if (![button isKindOfClass:[UIControl class]] || button == self.playerButton) {
             continue;
         }
+        //4个item
         // 计算btnX
         btnX = btnW * (index > 1 ? index + 1 : index);
-        
         // 重新设置frame
         button.frame = CGRectMake(btnX, btnY, btnW, button.frame.size.height);
         
+        //2个item
+        // 计算btnX
+//        btnX = btnW * (index > 0 ? index + 2 : index);
+//        if (index==0) {
+//            button.frame = CGRectMake(width/4-btnW/2-15, btnY, btnW, button.frame.size.height);
+//        }
+//        if (index==1) {
+//            button.frame = CGRectMake(width/4*3-btnW/2+15, btnY, btnW, button.frame.size.height);
+//        }
         // 索引增加
         index++;
     }

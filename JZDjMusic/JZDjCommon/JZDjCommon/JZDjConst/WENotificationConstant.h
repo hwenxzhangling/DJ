@@ -6,6 +6,15 @@
 //  Copyright © 2017年 瓦普时代. All rights reserved.
 //
 
+#define GKWYMUSIC_PLAYSTATECHANGENOTIFICATION   @"playStateChangeNotification" // 播放状态改变
+#define GKWYMUSIC_PLAYMUSICCHANGENOTIFICATION   @"playMusicCHangeNotification" // 播放数据改变
+#define GKWYMUSIC_USERDEFAULTSKEY_PLAYSTYLE     @"playStyle"        // 播放类型
+#define GKWYMUSIC_USERDEFAULTSKEY_LASTPLAYID    @"lastPlayId"       // 上一次播放id
+#define GKWYMUSIC_USERDEFAULTSKEY_PLAYINFO      @"playInfo"         // 播放信息
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+
+
 static NSString * const KTLDefaultConfigRefreshKEY = @"KTLDefaultConfigRefresh"; //审核配置
 static NSString * const kAttractionSelectBtnNotification = @"kAttractionSelectBtnNotification"; //景区选择城市
 static NSString * const kAttractionDetailNotification = @"kAttractionDetailNotification"; //景区详情

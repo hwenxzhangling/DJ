@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		147F85A9236131640092A721 /* WEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85A8236131630092A721 /* WEBaseViewController.m */; };
+		147F85BB236133AC0092A721 /* JZDjPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85BA236133AC0092A721 /* JZDjPlayController.m */; };
+		147F85BE236134210092A721 /* JZDjAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85BD236134210092A721 /* JZDjAccountController.m */; };
+		147F85C1236134680092A721 /* JZDjSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85C0236134680092A721 /* JZDjSelectViewController.m */; };
+		147F85C4236134950092A721 /* JZDjFrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85C3236134950092A721 /* JZDjFrendsViewController.m */; };
+		147F85C7236134B40092A721 /* JZDjDanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85C6236134B40092A721 /* JZDjDanceViewController.m */; };
 		149543CE235FF33300E034FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149543C6235FF33300E034FD /* Assets.xcassets */; };
 		149543CF235FF33300E034FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149543C7235FF33300E034FD /* LaunchScreen.storyboard */; };
 		149543D9235FF46500E034FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149543D6235FF46500E034FD /* main.m */; };
@@ -49,6 +55,24 @@
 		14954C7E2360586F00E034FD /* JZDjUserNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14954C782360586F00E034FD /* JZDjUserNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		14954C8523605F6800E034FD /* AppDelegate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14954C8423605F6800E034FD /* AppDelegate+Extension.m */; };
 		18260D9D5FFC267E435321A8 /* libPods-JZDjMusicMainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF0771E25ED0696485EF7A6 /* libPods-JZDjMusicMainProject.a */; };
+		573BBB3E2362991F0048678F /* dict.json in Resources */ = {isa = PBXBuildFile; fileRef = 573BBB3D2362991F0048678F /* dict.json */; };
+		573BBB412362A3EF0048678F /* GKWYMusicControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB402362A3EF0048678F /* GKWYMusicControlView.m */; };
+		573BBB442362A53D0048678F /* JZDMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB432362A53D0048678F /* JZDMusicTool.m */; };
+		573BBB642362AF6F0048678F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 573BBB4A2362AF6F0048678F /* LICENSE */; };
+		573BBB652362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB4D2362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		573BBB662362AF6F0048678F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB592362AF6F0048678F /* MASCompositeConstraint.m */; };
+		573BBB672362AF6F0048678F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB5A2362AF6F0048678F /* MASConstraintMaker.m */; };
+		573BBB682362AF6F0048678F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB5B2362AF6F0048678F /* MASLayoutConstraint.m */; };
+		573BBB692362AF6F0048678F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB5C2362AF6F0048678F /* NSArray+MASAdditions.m */; };
+		573BBB6A2362AF6F0048678F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB5D2362AF6F0048678F /* View+MASAdditions.m */; };
+		573BBB6B2362AF6F0048678F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB602362AF6F0048678F /* MASConstraint.m */; };
+		573BBB6C2362AF6F0048678F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB612362AF6F0048678F /* MASViewConstraint.m */; };
+		573BBB6D2362AF6F0048678F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB622362AF6F0048678F /* MASViewAttribute.m */; };
+		573BBB6E2362AF6F0048678F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 573BBB632362AF6F0048678F /* README.md */; };
+		579E242123618E52007E3597 /* JZDMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 579E242023618E52007E3597 /* JZDMusic.m */; };
+		579E2425236193CB007E3597 /* GKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 579E2424236193CB007E3597 /* GKAudioPlayer.m */; };
+		579E245F2361A1BA007E3597 /* GKSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 579E245D2361A1BA007E3597 /* GKSliderView.m */; };
+		579E24622361A1D7007E3597 /* GKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 579E24602361A1D7007E3597 /* GKTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +94,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14954387235FEBDE00E034FD /* JZDjMusicMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZDjMusicMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F85A7236131610092A721 /* WEBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEBaseViewController.h; sourceTree = "<group>"; };
+		147F85A8236131630092A721 /* WEBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEBaseViewController.m; sourceTree = "<group>"; };
+		147F85B9236133AC0092A721 /* JZDjPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjPlayController.h; sourceTree = "<group>"; };
+		147F85BA236133AC0092A721 /* JZDjPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjPlayController.m; sourceTree = "<group>"; };
+		147F85BC236134210092A721 /* JZDjAccountController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjAccountController.h; sourceTree = "<group>"; };
+		147F85BD236134210092A721 /* JZDjAccountController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjAccountController.m; sourceTree = "<group>"; };
+		147F85BF236134680092A721 /* JZDjSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjSelectViewController.h; sourceTree = "<group>"; };
+		147F85C0236134680092A721 /* JZDjSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjSelectViewController.m; sourceTree = "<group>"; };
+		147F85C2236134950092A721 /* JZDjFrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjFrendsViewController.h; sourceTree = "<group>"; };
+		147F85C3236134950092A721 /* JZDjFrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjFrendsViewController.m; sourceTree = "<group>"; };
+		147F85C5236134B40092A721 /* JZDjDanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjDanceViewController.h; sourceTree = "<group>"; };
+		147F85C6236134B40092A721 /* JZDjDanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjDanceViewController.m; sourceTree = "<group>"; };
+		14954387235FEBDE00E034FD /* 水晶Dj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水晶Dj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149543AA235FF00A00E034FD /* JZDjCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JZDjCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149543AB235FF00A00E034FD /* JZDjLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JZDjLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149543C6235FF33300E034FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +162,44 @@
 		14954C8423605F6800E034FD /* AppDelegate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Extension.m"; sourceTree = "<group>"; };
 		4D585F27417011D753F4C13C /* Pods-JZDjMusicMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZDjMusicMainProject.release.xcconfig"; path = "Target Support Files/Pods-JZDjMusicMainProject/Pods-JZDjMusicMainProject.release.xcconfig"; sourceTree = "<group>"; };
 		5069288AC1391C5B80BB0236 /* Pods-JZDjMusicMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZDjMusicMainProject.debug.xcconfig"; path = "Target Support Files/Pods-JZDjMusicMainProject/Pods-JZDjMusicMainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		573BBB3D2362991F0048678F /* dict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dict.json; sourceTree = "<group>"; };
+		573BBB3F2362A3EF0048678F /* GKWYMusicControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKWYMusicControlView.h; sourceTree = "<group>"; };
+		573BBB402362A3EF0048678F /* GKWYMusicControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKWYMusicControlView.m; sourceTree = "<group>"; };
+		573BBB422362A53D0048678F /* JZDMusicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDMusicTool.h; sourceTree = "<group>"; };
+		573BBB432362A53D0048678F /* JZDMusicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDMusicTool.m; sourceTree = "<group>"; };
+		573BBB4A2362AF6F0048678F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		573BBB4C2362AF6F0048678F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		573BBB4D2362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		573BBB4E2362AF6F0048678F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		573BBB4F2362AF6F0048678F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		573BBB502362AF6F0048678F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		573BBB512362AF6F0048678F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		573BBB522362AF6F0048678F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		573BBB532362AF6F0048678F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		573BBB542362AF6F0048678F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		573BBB552362AF6F0048678F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		573BBB562362AF6F0048678F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		573BBB572362AF6F0048678F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		573BBB582362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		573BBB592362AF6F0048678F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		573BBB5A2362AF6F0048678F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		573BBB5B2362AF6F0048678F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		573BBB5C2362AF6F0048678F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		573BBB5D2362AF6F0048678F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		573BBB5E2362AF6F0048678F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		573BBB5F2362AF6F0048678F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		573BBB602362AF6F0048678F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		573BBB612362AF6F0048678F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		573BBB622362AF6F0048678F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		573BBB632362AF6F0048678F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		579E241F23618E52007E3597 /* JZDMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDMusic.h; sourceTree = "<group>"; };
+		579E242023618E52007E3597 /* JZDMusic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDMusic.m; sourceTree = "<group>"; };
+		579E2423236193CB007E3597 /* GKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKAudioPlayer.h; sourceTree = "<group>"; };
+		579E2424236193CB007E3597 /* GKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKAudioPlayer.m; sourceTree = "<group>"; };
+		579E245D2361A1BA007E3597 /* GKSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKSliderView.m; sourceTree = "<group>"; };
+		579E245E2361A1BA007E3597 /* GKSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKSliderView.h; sourceTree = "<group>"; };
+		579E24602361A1D7007E3597 /* GKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTimer.m; sourceTree = "<group>"; };
+		579E24612361A1D7007E3597 /* GKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTimer.h; sourceTree = "<group>"; };
 		ADF0771E25ED0696485EF7A6 /* libPods-JZDjMusicMainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZDjMusicMainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -165,6 +239,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		147F85AA236133610092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85AB236133610092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85C5236134B40092A721 /* JZDjDanceViewController.h */,
+				147F85C6236134B40092A721 /* JZDjDanceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85AC236133610092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85AD236133680092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85AE236133680092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85AF236133680092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85C2236134950092A721 /* JZDjFrendsViewController.h */,
+				147F85C3236134950092A721 /* JZDjFrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85B02361337E0092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85B12361337F0092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85B22361337F0092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85BF236134680092A721 /* JZDjSelectViewController.h */,
+				147F85C0236134680092A721 /* JZDjSelectViewController.m */,
+				573BBB3D2362991F0048678F /* dict.json */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85B32361338A0092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85B42361338A0092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85B52361338A0092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85BC236134210092A721 /* JZDjAccountController.h */,
+				147F85BD236134210092A721 /* JZDjAccountController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85B6236133900092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				579E241F23618E52007E3597 /* JZDMusic.h */,
+				579E242023618E52007E3597 /* JZDMusic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85B7236133900092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85B8236133900092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85B9236133AC0092A721 /* JZDjPlayController.h */,
+				147F85BA236133AC0092A721 /* JZDjPlayController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1495437E235FEBDE00E034FD = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +370,7 @@
 		14954388235FEBDE00E034FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14954387235FEBDE00E034FD /* JZDjMusicMainProject.app */,
+				14954387235FEBDE00E034FD /* 水晶Dj.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,6 +447,7 @@
 		14954480236021DD00E034FD /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				573BBB492362AF6F0048678F /* Masonry */,
 				14954B84236040E600E034FD /* JZDjLibiOS */,
 			);
 			path = Vender;
@@ -283,6 +476,9 @@
 		14954483236021DD00E034FD /* Dance */ = {
 			isa = PBXGroup;
 			children = (
+				147F85AB236133610092A721 /* Controller */,
+				147F85AA236133610092A721 /* Model */,
+				147F85AC236133610092A721 /* View */,
 			);
 			path = Dance;
 			sourceTree = "<group>";
@@ -290,6 +486,9 @@
 		14954484236021DD00E034FD /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				147F85AF236133680092A721 /* Controller */,
+				147F85AD236133680092A721 /* Model */,
+				147F85AE236133680092A721 /* View */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -297,6 +496,9 @@
 		14954485236021DD00E034FD /* Select */ = {
 			isa = PBXGroup;
 			children = (
+				147F85B22361337F0092A721 /* Controller */,
+				147F85B02361337E0092A721 /* Model */,
+				147F85B12361337F0092A721 /* View */,
 			);
 			path = Select;
 			sourceTree = "<group>";
@@ -304,6 +506,9 @@
 		14954486236021DD00E034FD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				147F85B52361338A0092A721 /* Controller */,
+				147F85B42361338A0092A721 /* Model */,
+				147F85B32361338A0092A721 /* View */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -311,6 +516,10 @@
 		14954487236021DD00E034FD /* Play */ = {
 			isa = PBXGroup;
 			children = (
+				147F85B8236133900092A721 /* Controller */,
+				147F85B6236133900092A721 /* Model */,
+				147F85B7236133900092A721 /* View */,
+				579E2422236193B5007E3597 /* PlayFile */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -318,6 +527,8 @@
 		149544882360220900E034FD /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				147F85A7236131610092A721 /* WEBaseViewController.h */,
+				147F85A8236131630092A721 /* WEBaseViewController.m */,
 				14954BA523604BA700E034FD /* GKMainTabBarController.h */,
 				14954BAC23604BA800E034FD /* GKMainTabBarController.m */,
 				14954BAA23604BA700E034FD /* GKPlayerButton.h */,
@@ -420,6 +631,63 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		573BBB492362AF6F0048678F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				573BBB4A2362AF6F0048678F /* LICENSE */,
+				573BBB4B2362AF6F0048678F /* Masonry */,
+				573BBB632362AF6F0048678F /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		573BBB4B2362AF6F0048678F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				573BBB4C2362AF6F0048678F /* MASCompositeConstraint.h */,
+				573BBB4D2362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				573BBB4E2362AF6F0048678F /* MASConstraint+Private.h */,
+				573BBB4F2362AF6F0048678F /* MASLayoutConstraint.h */,
+				573BBB502362AF6F0048678F /* NSArray+MASShorthandAdditions.h */,
+				573BBB512362AF6F0048678F /* MASConstraintMaker.h */,
+				573BBB522362AF6F0048678F /* View+MASAdditions.h */,
+				573BBB532362AF6F0048678F /* NSArray+MASAdditions.h */,
+				573BBB542362AF6F0048678F /* MASUtilities.h */,
+				573BBB552362AF6F0048678F /* MASViewAttribute.h */,
+				573BBB562362AF6F0048678F /* MASViewConstraint.h */,
+				573BBB572362AF6F0048678F /* MASConstraint.h */,
+				573BBB582362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				573BBB592362AF6F0048678F /* MASCompositeConstraint.m */,
+				573BBB5A2362AF6F0048678F /* MASConstraintMaker.m */,
+				573BBB5B2362AF6F0048678F /* MASLayoutConstraint.m */,
+				573BBB5C2362AF6F0048678F /* NSArray+MASAdditions.m */,
+				573BBB5D2362AF6F0048678F /* View+MASAdditions.m */,
+				573BBB5E2362AF6F0048678F /* View+MASShorthandAdditions.h */,
+				573BBB5F2362AF6F0048678F /* Masonry.h */,
+				573BBB602362AF6F0048678F /* MASConstraint.m */,
+				573BBB612362AF6F0048678F /* MASViewConstraint.m */,
+				573BBB622362AF6F0048678F /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		579E2422236193B5007E3597 /* PlayFile */ = {
+			isa = PBXGroup;
+			children = (
+				573BBB3F2362A3EF0048678F /* GKWYMusicControlView.h */,
+				573BBB402362A3EF0048678F /* GKWYMusicControlView.m */,
+				579E24612361A1D7007E3597 /* GKTimer.h */,
+				579E24602361A1D7007E3597 /* GKTimer.m */,
+				579E245E2361A1BA007E3597 /* GKSliderView.h */,
+				579E245D2361A1BA007E3597 /* GKSliderView.m */,
+				579E2423236193CB007E3597 /* GKAudioPlayer.h */,
+				579E2424236193CB007E3597 /* GKAudioPlayer.m */,
+				573BBB422362A53D0048678F /* JZDMusicTool.h */,
+				573BBB432362A53D0048678F /* JZDMusicTool.m */,
+			);
+			path = PlayFile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -440,7 +708,7 @@
 			);
 			name = JZDjMusicMainProject;
 			productName = JZDjMusicMainProject;
-			productReference = 14954387235FEBDE00E034FD /* JZDjMusicMainProject.app */;
+			productReference = 14954387235FEBDE00E034FD /* 水晶Dj.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -480,9 +748,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573BBB6E2362AF6F0048678F /* README.md in Resources */,
 				14954B94236040E600E034FD /* UMCommonLog.bundle in Resources */,
+				573BBB3E2362991F0048678F /* dict.json in Resources */,
 				149543CE235FF33300E034FD /* Assets.xcassets in Resources */,
 				149543CF235FF33300E034FD /* LaunchScreen.storyboard in Resources */,
+				573BBB642362AF6F0048678F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,15 +806,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573BBB6C2362AF6F0048678F /* MASViewConstraint.m in Sources */,
+				573BBB412362A3EF0048678F /* GKWYMusicControlView.m in Sources */,
+				573BBB662362AF6F0048678F /* MASCompositeConstraint.m in Sources */,
+				573BBB692362AF6F0048678F /* NSArray+MASAdditions.m in Sources */,
 				14954B9E236041FD00E034FD /* WEBaseNavController.m in Sources */,
+				573BBB6D2362AF6F0048678F /* MASViewAttribute.m in Sources */,
+				147F85C1236134680092A721 /* JZDjSelectViewController.m in Sources */,
+				147F85A9236131640092A721 /* WEBaseViewController.m in Sources */,
+				573BBB672362AF6F0048678F /* MASConstraintMaker.m in Sources */,
 				149543DA235FF46500E034FD /* AppDelegate.m in Sources */,
+				573BBB6A2362AF6F0048678F /* View+MASAdditions.m in Sources */,
+				579E24622361A1D7007E3597 /* GKTimer.m in Sources */,
 				149543D9235FF46500E034FD /* main.m in Sources */,
 				14954BB023604BA800E034FD /* GKMainTabBarController.m in Sources */,
+				573BBB6B2362AF6F0048678F /* MASConstraint.m in Sources */,
+				147F85BE236134210092A721 /* JZDjAccountController.m in Sources */,
+				147F85C7236134B40092A721 /* JZDjDanceViewController.m in Sources */,
 				14954BAD23604BA800E034FD /* GKTabBar.m in Sources */,
+				573BBB652362AF6F0048678F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				14954B9B236041CC00E034FD /* WEBaseNavView.m in Sources */,
 				14954BAF23604BA800E034FD /* GKPlayerButton.m in Sources */,
+				579E245F2361A1BA007E3597 /* GKSliderView.m in Sources */,
+				573BBB682362AF6F0048678F /* MASLayoutConstraint.m in Sources */,
 				14954BAE23604BA800E034FD /* GKTestViewController.m in Sources */,
+				147F85BB236133AC0092A721 /* JZDjPlayController.m in Sources */,
+				147F85C4236134950092A721 /* JZDjFrendsViewController.m in Sources */,
+				579E2425236193CB007E3597 /* GKAudioPlayer.m in Sources */,
+				579E242123618E52007E3597 /* JZDMusic.m in Sources */,
 				14954C8523605F6800E034FD /* AppDelegate+Extension.m in Sources */,
+				573BBB442362A53D0048678F /* JZDMusicTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,7 +991,7 @@
 					$SDKROOT/usr/include/libxml2,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HH.JZDjMusicMainProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "水晶Dj";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -732,7 +1024,7 @@
 					$SDKROOT/usr/include/libxml2,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HH.JZDjMusicMainProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "水晶Dj";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

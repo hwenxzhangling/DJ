@@ -16,10 +16,6 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-//分组名称
-#define KWEGroupName                @"group.com.cxmx.weather"
-#define KWEGroupNameWeatherHome     @"group.com.cxmx.weather.home"
-
 #define APPDELEGATE ((AppDelegate *)[UIApplication sharedApplication].delegate)
 // 视图尺寸
 #define MAIN_WIDTH          ([[UIScreen mainScreen] bounds].size.width)
@@ -40,13 +36,6 @@
 #define MIN_Y(v)             CGRectGetMinY((v).frame)
 #define MAX_X(v)             CGRectGetMaxX((v).frame)
 #define MAX_Y(v)             CGRectGetMaxY((v).frame)
-
-//#define Ad_1Height (66+192.f/345.f*MAIN_WIDTH)
-//#define Ad_2Height (56+192.f/345.f*MAIN_WIDTH)
-//#define Ad_3Height (192.f/345.f*MAIN_WIDTH)
-#define Ad_1Height (66+192.f/375.f*MAIN_WIDTH)
-#define Ad_2Height (56+192.f/375.f*MAIN_WIDTH)
-#define Ad_3Height (192.f/375.f*MAIN_WIDTH)
 
 // 设置颜色
 #define COLOR_A(r,g,b,a)   [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]

@@ -10,6 +10,12 @@
 #import "GKTestViewController.h"
 #import "GKTabBar.h"
 #import "GKPlayerButton.h"
+#import "WEBaseNavController.h"
+#import "JZDjDanceViewController.h"
+#import "JZDjSelectViewController.h"
+#import "JZDjFrendsViewController.h"
+#import "JZDjAccountController.h"
+#import "JZDjPlayController.h"
 
 @interface GKMainTabBarController ()
 
@@ -24,7 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [kNotificationCenter addObserver:self selector:@selector(statusChanged:) name:GKWYMUSIC_PLAYSTATECHANGENOTIFICATION object:nil];
     // 添加子控制器
     [self addChildVCs];
     
@@ -45,8 +51,20 @@
     };
 }
 
+//播放状态改变
+- (void)statusChanged:(NSNotification *)notify {
+    NSString *string = [notify object];
+    self.isRotation = string.boolValue;
+}
+
 - (void)play {
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
+    
+    JZDjPlayController *playVC = [[JZDjPlayController alloc] init];
+    //playVC.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:playVC animated:YES completion:^{
+        
+    }];
 }
 
 - (void)pause {
@@ -73,16 +91,16 @@
  */
 - (void)addChildVCs {
     // 首页
-    [self addChildVC:[GKTestViewController new] title:@"首页" imageName:@"tabbar_rootvc"];
+    [self addChildVC:[JZDjSelectViewController new] title:@"精选" imageName:@"tabbar_rootvc"];
     
     // 相对论
-    [self addChildVC:[GKTestViewController new] title:@"相对论" imageName:@"tabbar_relativity"];
+    [self addChildVC:[JZDjDanceViewController new] title:@"舞曲" imageName:@"tabbar_relativity"];
     
     // 订阅听
-    [self addChildVC:[GKTestViewController new] title:@"订阅听" imageName:@"tabbar_rss"];
+    [self addChildVC:[JZDjFrendsViewController new] title:@"嗨圈" imageName:@"tabbar_rss"];
     
     // 我的
-    [self addChildVC:[GKTestViewController new] title:@"我的" imageName:@"tabbar_membercenter"];
+    [self addChildVC:[JZDjAccountController new] title:@"我的" imageName:@"tabbar_membercenter"];
 }
 
 /**
@@ -104,7 +122,7 @@
     [childVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor grayColor]} forState:UIControlStateNormal];
     [childVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor redColor]} forState:UIControlStateSelected];
     
-    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:childVC];
+    WEBaseNavController *navVC = [[WEBaseNavController alloc] initWithRootViewController:childVC];
     
     [self addChildViewController:navVC];
 }

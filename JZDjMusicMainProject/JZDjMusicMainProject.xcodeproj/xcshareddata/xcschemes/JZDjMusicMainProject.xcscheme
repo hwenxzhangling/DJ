@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14954386235FEBDE00E034FD"
-               BuildableName = "JZDjMusicMainProject.app"
+               BuildableName = "&#x6c34;&#x6676;Dj.app"
                BlueprintName = "JZDjMusicMainProject"
                ReferencedContainer = "container:JZDjMusicMainProject.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14954386235FEBDE00E034FD"
-            BuildableName = "JZDjMusicMainProject.app"
+            BuildableName = "&#x6c34;&#x6676;Dj.app"
             BlueprintName = "JZDjMusicMainProject"
             ReferencedContainer = "container:JZDjMusicMainProject.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14954386235FEBDE00E034FD"
-            BuildableName = "JZDjMusicMainProject.app"
+            BuildableName = "&#x6c34;&#x6676;Dj.app"
             BlueprintName = "JZDjMusicMainProject"
             ReferencedContainer = "container:JZDjMusicMainProject.xcodeproj">
          </BuildableReference>

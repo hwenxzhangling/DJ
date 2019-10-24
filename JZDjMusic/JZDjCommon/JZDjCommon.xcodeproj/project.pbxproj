@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		147F85CD2361400F0092A721 /* WEWeatherTableViewCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 147F85CB2361400D0092A721 /* WEWeatherTableViewCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147F85CE2361400F0092A721 /* WEWeatherTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85CC2361400E0092A721 /* WEWeatherTableViewCellModel.m */; };
+		147F85D0236140AA0092A721 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F85CF236140AA0092A721 /* CoreGraphics.framework */; };
 		14954327235FE74E00E034FD /* JZDjCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 14954325235FE74E00E034FD /* JZDjCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149543A7235FEDA900E034FD /* JZDjAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 149543A5235FEDA900E034FD /* JZDjAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149543A8235FEDA900E034FD /* JZDjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149543A6235FEDA900E034FD /* JZDjAppDelegate.m */; };
@@ -56,6 +59,8 @@
 		14954AFE2360367100E034FD /* JZDjLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14954453235FFD1400E034FD /* JZDjLib.framework */; };
 		14954AFF2360368D00E034FD /* JZDjLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14954453235FFD1400E034FD /* JZDjLib.framework */; };
 		14954BA12360479400E034FD /* JZDjTabbarControllerProtocl.h in Headers */ = {isa = PBXBuildFile; fileRef = 14954BA02360479400E034FD /* JZDjTabbarControllerProtocl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573BBB472362A61B0048678F /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 573BBB452362A61A0048678F /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573BBB482362A61B0048678F /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BBB462362A61B0048678F /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +78,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		147F85CB2361400D0092A721 /* WEWeatherTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEWeatherTableViewCellModel.h; sourceTree = "<group>"; };
+		147F85CC2361400E0092A721 /* WEWeatherTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEWeatherTableViewCellModel.m; sourceTree = "<group>"; };
+		147F85CF236140AA0092A721 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		14954322235FE74E00E034FD /* JZDjCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JZDjCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14954325235FE74E00E034FD /* JZDjCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjCommon.h; sourceTree = "<group>"; };
 		14954326235FE74E00E034FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +127,8 @@
 		1495447A236020CA00E034FD /* WEColorConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEColorConstant.h; sourceTree = "<group>"; };
 		1495447B236020CA00E034FD /* WEViewColorHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEViewColorHex.h; sourceTree = "<group>"; };
 		14954BA02360479400E034FD /* JZDjTabbarControllerProtocl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjTabbarControllerProtocl.h; sourceTree = "<group>"; };
+		573BBB452362A61A0048678F /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		573BBB462362A61B0048678F /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147F85D0236140AA0092A721 /* CoreGraphics.framework in Frameworks */,
 				14954AFD2360365B00E034FD /* JZDjLib.framework in Frameworks */,
 				14954AFC2360364100E034FD /* JZDjLib.framework in Frameworks */,
 				14954AFE2360367100E034FD /* JZDjLib.framework in Frameworks */,
@@ -137,6 +148,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		147F85CA236140050092A721 /* JZDjModel */ = {
+			isa = PBXGroup;
+			children = (
+				147F85CB2361400D0092A721 /* WEWeatherTableViewCellModel.h */,
+				147F85CC2361400E0092A721 /* WEWeatherTableViewCellModel.m */,
+			);
+			path = JZDjModel;
+			sourceTree = "<group>";
+		};
 		14954318235FE74E00E034FD = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +177,7 @@
 		14954324235FE74E00E034FD /* JZDjCommon */ = {
 			isa = PBXGroup;
 			children = (
+				147F85CA236140050092A721 /* JZDjModel */,
 				14954477236020CA00E034FD /* JZDjConst */,
 				14954414235FF71700E034FD /* JZDjCommonView */,
 				149543DC235FF61000E034FD /* JZDjCommonCategory */,
@@ -183,6 +204,8 @@
 		149543DC235FF61000E034FD /* JZDjCommonCategory */ = {
 			isa = PBXGroup;
 			children = (
+				573BBB452362A61A0048678F /* UIView+Toast.h */,
+				573BBB462362A61B0048678F /* UIView+Toast.m */,
 				149543FC235FF6A700E034FD /* UIBezierPath+LxThroughPointsBezier.h */,
 				149543FF235FF6A800E034FD /* UIBezierPath+LxThroughPointsBezier.m */,
 				14954405235FF6A800E034FD /* UIButton+LSEnlargeTouchArea.h */,
@@ -237,6 +260,7 @@
 		14954452235FFD1400E034FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				147F85CF236140AA0092A721 /* CoreGraphics.framework */,
 				14954453235FFD1400E034FD /* JZDjLib.framework */,
 			);
 			name = Frameworks;
@@ -283,6 +307,8 @@
 				14954BA12360479400E034FD /* JZDjTabbarControllerProtocl.h in Headers */,
 				1495440C235FF6A800E034FD /* UIViewController+Swizzling.h in Headers */,
 				149543DF235FF61800E034FD /* UIDevice+VKKeychainIDFV.h in Headers */,
+				147F85CD2361400F0092A721 /* WEWeatherTableViewCellModel.h in Headers */,
+				573BBB472362A61B0048678F /* UIView+Toast.h in Headers */,
 				14954427235FFB8E00E034FD /* GKPrefixHeader.pch in Headers */,
 				14954410235FF6A800E034FD /* UIImage+CZ.h in Headers */,
 			);
@@ -365,6 +391,7 @@
 				14954408235FF6A800E034FD /* UITextField+JKInputLimit.m in Sources */,
 				14954431235FFC6300E034FD /* WEBaseCell.m in Sources */,
 				149543F6235FF68D00E034FD /* NSTimer+BlockTimer.m in Sources */,
+				573BBB482362A61B0048678F /* UIView+Toast.m in Sources */,
 				1495440E235FF6A800E034FD /* UIImage+CZ.m in Sources */,
 				1495447223601EFF00E034FD /* UIColor+JZDjHex.m in Sources */,
 				1495440D235FF6A800E034FD /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
@@ -374,6 +401,7 @@
 				14954409235FF6A800E034FD /* UIViewController+Swizzling.m in Sources */,
 				149543E0235FF61800E034FD /* UIDevice+VKKeychainIDFV.m in Sources */,
 				14954406235FF6A800E034FD /* UIButton+LSEnlargeTouchArea.m in Sources */,
+				147F85CE2361400F0092A721 /* WEWeatherTableViewCellModel.m in Sources */,
 				149543EF235FF66F00E034FD /* NSMutableArray+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <YYKit/YYKit.h>
+#import <Chameleon.h>
 #import <JZDjCommon/WEConstant.h>
 #import <JZDjCommon/WEFrameUtil.h>
 #import <JZDjCommon/JZDjMacros.h>
@@ -18,7 +19,8 @@
 #import <JZDjLib/UIViewController+Swizzling.h>
 #import <AFNetworking/AFNetworkReachabilityManager.h>
 #import <SVProgressHUD.h>
-
+#import "WEBaseViewController.h"
+#import <JZDjCommon/UIView+Toast.h>
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
