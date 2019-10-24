@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.interactivePopGestureRecognizer.delegate = (id)self;
     self.navigationBar.hidden = YES;
     
 //    [[UINavigationBar appearance] setShadowImage:[UIImage new]];//隐藏阴影

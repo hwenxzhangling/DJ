@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		147F85A9236131640092A721 /* WEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85A8236131630092A721 /* WEBaseViewController.m */; };
+		147F85BB236133AC0092A721 /* JZDjPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85BA236133AC0092A721 /* JZDjPlayController.m */; };
+		147F85BE236134210092A721 /* JZDjAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85BD236134210092A721 /* JZDjAccountController.m */; };
+		147F85C1236134680092A721 /* JZDjSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85C0236134680092A721 /* JZDjSelectViewController.m */; };
+		147F85C4236134950092A721 /* JZDjFrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85C3236134950092A721 /* JZDjFrendsViewController.m */; };
+		147F85C7236134B40092A721 /* JZDjDanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85C6236134B40092A721 /* JZDjDanceViewController.m */; };
 		149543CE235FF33300E034FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149543C6235FF33300E034FD /* Assets.xcassets */; };
 		149543CF235FF33300E034FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149543C7235FF33300E034FD /* LaunchScreen.storyboard */; };
 		149543D9235FF46500E034FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149543D6235FF46500E034FD /* main.m */; };
@@ -70,7 +76,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14954387235FEBDE00E034FD /* JZDjMusicMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZDjMusicMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F85A7236131610092A721 /* WEBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEBaseViewController.h; sourceTree = "<group>"; };
+		147F85A8236131630092A721 /* WEBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEBaseViewController.m; sourceTree = "<group>"; };
+		147F85B9236133AC0092A721 /* JZDjPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjPlayController.h; sourceTree = "<group>"; };
+		147F85BA236133AC0092A721 /* JZDjPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjPlayController.m; sourceTree = "<group>"; };
+		147F85BC236134210092A721 /* JZDjAccountController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjAccountController.h; sourceTree = "<group>"; };
+		147F85BD236134210092A721 /* JZDjAccountController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjAccountController.m; sourceTree = "<group>"; };
+		147F85BF236134680092A721 /* JZDjSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjSelectViewController.h; sourceTree = "<group>"; };
+		147F85C0236134680092A721 /* JZDjSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjSelectViewController.m; sourceTree = "<group>"; };
+		147F85C2236134950092A721 /* JZDjFrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjFrendsViewController.h; sourceTree = "<group>"; };
+		147F85C3236134950092A721 /* JZDjFrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjFrendsViewController.m; sourceTree = "<group>"; };
+		147F85C5236134B40092A721 /* JZDjDanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDjDanceViewController.h; sourceTree = "<group>"; };
+		147F85C6236134B40092A721 /* JZDjDanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDjDanceViewController.m; sourceTree = "<group>"; };
+		14954387235FEBDE00E034FD /* 水晶Dj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水晶Dj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149543AA235FF00A00E034FD /* JZDjCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JZDjCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149543AB235FF00A00E034FD /* JZDjLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JZDjLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149543C6235FF33300E034FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,6 +183,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		147F85AA236133610092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85AB236133610092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85C5236134B40092A721 /* JZDjDanceViewController.h */,
+				147F85C6236134B40092A721 /* JZDjDanceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85AC236133610092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85AD236133680092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85AE236133680092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85AF236133680092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85C2236134950092A721 /* JZDjFrendsViewController.h */,
+				147F85C3236134950092A721 /* JZDjFrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85B02361337E0092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85B12361337F0092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85B22361337F0092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85BF236134680092A721 /* JZDjSelectViewController.h */,
+				147F85C0236134680092A721 /* JZDjSelectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85B32361338A0092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85B42361338A0092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85B52361338A0092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85BC236134210092A721 /* JZDjAccountController.h */,
+				147F85BD236134210092A721 /* JZDjAccountController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		147F85B6236133900092A721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147F85B7236133900092A721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147F85B8236133900092A721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				147F85B9236133AC0092A721 /* JZDjPlayController.h */,
+				147F85BA236133AC0092A721 /* JZDjPlayController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1495437E235FEBDE00E034FD = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +311,7 @@
 		14954388235FEBDE00E034FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14954387235FEBDE00E034FD /* JZDjMusicMainProject.app */,
+				14954387235FEBDE00E034FD /* 水晶Dj.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,6 +416,9 @@
 		14954483236021DD00E034FD /* Dance */ = {
 			isa = PBXGroup;
 			children = (
+				147F85AB236133610092A721 /* Controller */,
+				147F85AA236133610092A721 /* Model */,
+				147F85AC236133610092A721 /* View */,
 			);
 			path = Dance;
 			sourceTree = "<group>";
@@ -290,6 +426,9 @@
 		14954484236021DD00E034FD /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				147F85AF236133680092A721 /* Controller */,
+				147F85AD236133680092A721 /* Model */,
+				147F85AE236133680092A721 /* View */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -297,6 +436,9 @@
 		14954485236021DD00E034FD /* Select */ = {
 			isa = PBXGroup;
 			children = (
+				147F85B22361337F0092A721 /* Controller */,
+				147F85B02361337E0092A721 /* Model */,
+				147F85B12361337F0092A721 /* View */,
 			);
 			path = Select;
 			sourceTree = "<group>";
@@ -304,6 +446,9 @@
 		14954486236021DD00E034FD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				147F85B52361338A0092A721 /* Controller */,
+				147F85B42361338A0092A721 /* Model */,
+				147F85B32361338A0092A721 /* View */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -311,6 +456,9 @@
 		14954487236021DD00E034FD /* Play */ = {
 			isa = PBXGroup;
 			children = (
+				147F85B8236133900092A721 /* Controller */,
+				147F85B6236133900092A721 /* Model */,
+				147F85B7236133900092A721 /* View */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -318,6 +466,8 @@
 		149544882360220900E034FD /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				147F85A7236131610092A721 /* WEBaseViewController.h */,
+				147F85A8236131630092A721 /* WEBaseViewController.m */,
 				14954BA523604BA700E034FD /* GKMainTabBarController.h */,
 				14954BAC23604BA800E034FD /* GKMainTabBarController.m */,
 				14954BAA23604BA700E034FD /* GKPlayerButton.h */,
@@ -440,7 +590,7 @@
 			);
 			name = JZDjMusicMainProject;
 			productName = JZDjMusicMainProject;
-			productReference = 14954387235FEBDE00E034FD /* JZDjMusicMainProject.app */;
+			productReference = 14954387235FEBDE00E034FD /* 水晶Dj.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -536,13 +686,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				14954B9E236041FD00E034FD /* WEBaseNavController.m in Sources */,
+				147F85C1236134680092A721 /* JZDjSelectViewController.m in Sources */,
+				147F85A9236131640092A721 /* WEBaseViewController.m in Sources */,
 				149543DA235FF46500E034FD /* AppDelegate.m in Sources */,
 				149543D9235FF46500E034FD /* main.m in Sources */,
 				14954BB023604BA800E034FD /* GKMainTabBarController.m in Sources */,
+				147F85BE236134210092A721 /* JZDjAccountController.m in Sources */,
+				147F85C7236134B40092A721 /* JZDjDanceViewController.m in Sources */,
 				14954BAD23604BA800E034FD /* GKTabBar.m in Sources */,
 				14954B9B236041CC00E034FD /* WEBaseNavView.m in Sources */,
 				14954BAF23604BA800E034FD /* GKPlayerButton.m in Sources */,
 				14954BAE23604BA800E034FD /* GKTestViewController.m in Sources */,
+				147F85BB236133AC0092A721 /* JZDjPlayController.m in Sources */,
+				147F85C4236134950092A721 /* JZDjFrendsViewController.m in Sources */,
 				14954C8523605F6800E034FD /* AppDelegate+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,7 +855,7 @@
 					$SDKROOT/usr/include/libxml2,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HH.JZDjMusicMainProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "水晶Dj";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -732,7 +888,7 @@
 					$SDKROOT/usr/include/libxml2,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HH.JZDjMusicMainProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "水晶Dj";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
