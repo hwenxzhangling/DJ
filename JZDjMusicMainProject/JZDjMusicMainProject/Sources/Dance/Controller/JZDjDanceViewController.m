@@ -18,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupViews];
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 }
 
 - (void)setupViews

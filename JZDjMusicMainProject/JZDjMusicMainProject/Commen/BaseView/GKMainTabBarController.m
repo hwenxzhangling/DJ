@@ -97,7 +97,11 @@
     [self addChildVC:[JZDjDanceViewController new] title:@"舞曲" imageName:@"tabbar_relativity"];
     
     // 订阅听
+<<<<<<< HEAD
     [self addChildVC:[JZDjFrendsViewController new] title:@"嗨圈" imageName:@"tabbar_rss"];
+=======
+    [self addChildVC:[JZDjFrendsViewController new] title:@"朋友圈" imageName:@"tabbar_rss"];
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
     
     // 我的
     [self addChildVC:[JZDjAccountController new] title:@"我的" imageName:@"tabbar_membercenter"];

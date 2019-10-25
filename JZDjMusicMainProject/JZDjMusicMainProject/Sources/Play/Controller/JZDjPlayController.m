@@ -7,6 +7,7 @@
 //
 
 #import "JZDjPlayController.h"
+<<<<<<< HEAD
 #import "GKAudioPlayer.h"
 #import "GKWYMusicControlView.h"
 
@@ -30,11 +31,16 @@
 @property (nonatomic, assign) NSTimeInterval        currentTime;    // 当前时间
 @property (nonatomic, strong) GKWYMusicControlView  *controlView;
 @property (strong, nonatomic) UIImageView *centerImageV;
+=======
+
+@interface JZDjPlayController ()
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 
 @end
 
 @implementation JZDjPlayController
 
+<<<<<<< HEAD
 + (instancetype)share{
     static dispatch_once_t onceToken;
     static JZDjPlayController *player = nil;
@@ -517,5 +523,22 @@
     }
     return _centerImageV;
 }
+=======
+- (void)viewDidLoad {
+    [super viewDidLoad];
+     self.navView.title = @"播放器";
+    // Do any additional setup after loading the view.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "JZDjSelectViewController.h"
+<<<<<<< HEAD
 #import "JZDjPlayController.h"
 #import "JZDMusic.h"
 #import <MJExtension.h>
@@ -16,6 +17,11 @@
     NSMutableArray *_dataSource;
 }
 @property (nonatomic , copy)UITableView *tableView;
+=======
+
+@interface JZDjSelectViewController ()
+
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 @end
 
 @implementation JZDjSelectViewController
@@ -24,6 +30,7 @@
     [super viewDidLoad];
     self.navView.title = @"精选";
     // Do any additional setup after loading the view.
+<<<<<<< HEAD
     _dataSource = [NSMutableArray array];
     NSDictionary *dic = [self readLocalFileWithName:@"dict.json"];
     NSArray *array = dic[@"datas"][@"dance_hot"];
@@ -78,5 +85,18 @@
     }
     return _tableView;
 }
+=======
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 
 @end

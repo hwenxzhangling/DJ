@@ -304,7 +304,10 @@
 			children = (
 				147F85BF236134680092A721 /* JZDjSelectViewController.h */,
 				147F85C0236134680092A721 /* JZDjSelectViewController.m */,
+<<<<<<< HEAD
 				573BBB3D2362991F0048678F /* dict.json */,
+=======
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -335,8 +338,11 @@
 		147F85B6236133900092A721 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				579E241F23618E52007E3597 /* JZDMusic.h */,
 				579E242023618E52007E3597 /* JZDMusic.m */,
+=======
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -519,7 +525,10 @@
 				147F85B8236133900092A721 /* Controller */,
 				147F85B6236133900092A721 /* Model */,
 				147F85B7236133900092A721 /* View */,
+<<<<<<< HEAD
 				579E2422236193B5007E3597 /* PlayFile */,
+=======
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -811,16 +820,24 @@
 				573BBB662362AF6F0048678F /* MASCompositeConstraint.m in Sources */,
 				573BBB692362AF6F0048678F /* NSArray+MASAdditions.m in Sources */,
 				14954B9E236041FD00E034FD /* WEBaseNavController.m in Sources */,
+<<<<<<< HEAD
 				573BBB6D2362AF6F0048678F /* MASViewAttribute.m in Sources */,
 				147F85C1236134680092A721 /* JZDjSelectViewController.m in Sources */,
 				147F85A9236131640092A721 /* WEBaseViewController.m in Sources */,
 				573BBB672362AF6F0048678F /* MASConstraintMaker.m in Sources */,
+=======
+				147F85C1236134680092A721 /* JZDjSelectViewController.m in Sources */,
+				147F85A9236131640092A721 /* WEBaseViewController.m in Sources */,
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 				149543DA235FF46500E034FD /* AppDelegate.m in Sources */,
 				573BBB6A2362AF6F0048678F /* View+MASAdditions.m in Sources */,
 				579E24622361A1D7007E3597 /* GKTimer.m in Sources */,
 				149543D9235FF46500E034FD /* main.m in Sources */,
 				14954BB023604BA800E034FD /* GKMainTabBarController.m in Sources */,
+<<<<<<< HEAD
 				573BBB6B2362AF6F0048678F /* MASConstraint.m in Sources */,
+=======
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 				147F85BE236134210092A721 /* JZDjAccountController.m in Sources */,
 				147F85C7236134B40092A721 /* JZDjDanceViewController.m in Sources */,
 				14954BAD23604BA800E034FD /* GKTabBar.m in Sources */,
@@ -832,8 +849,11 @@
 				14954BAE23604BA800E034FD /* GKTestViewController.m in Sources */,
 				147F85BB236133AC0092A721 /* JZDjPlayController.m in Sources */,
 				147F85C4236134950092A721 /* JZDjFrendsViewController.m in Sources */,
+<<<<<<< HEAD
 				579E2425236193CB007E3597 /* GKAudioPlayer.m in Sources */,
 				579E242123618E52007E3597 /* JZDMusic.m in Sources */,
+=======
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 				14954C8523605F6800E034FD /* AppDelegate+Extension.m in Sources */,
 				573BBB442362A53D0048678F /* JZDMusicTool.m in Sources */,
 			);

@@ -7,7 +7,11 @@
 		<key>AFNetworking.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>17</integer>
+=======
+			<integer>16</integer>
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 		</dict>
 	</dict>
 </dict>

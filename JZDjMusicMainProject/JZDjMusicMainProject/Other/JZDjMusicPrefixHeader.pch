@@ -20,7 +20,11 @@
 #import <AFNetworking/AFNetworkReachabilityManager.h>
 #import <SVProgressHUD.h>
 #import "WEBaseViewController.h"
+<<<<<<< HEAD
 #import <JZDjCommon/UIView+Toast.h>
+=======
+
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)

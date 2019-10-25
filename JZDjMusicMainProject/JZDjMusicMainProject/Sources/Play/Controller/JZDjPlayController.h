@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import "JZDMusic.h"
 #import "JZDMusicTool.h"
 NS_ASSUME_NONNULL_BEGIN
@@ -18,10 +19,15 @@ typedef NS_ENUM(NSInteger,JZDLoopState){
     JZDRandomLoop,    //随机播放
     JZDOnceLoop       //列表一次顺序播放
 };
+=======
+
+NS_ASSUME_NONNULL_BEGIN
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 
 /// 播放器
 @interface JZDjPlayController : WEBaseViewController
 
+<<<<<<< HEAD
 @property (nonatomic,assign)BOOL isPlaying;
 /** 当前播放的音频的id */
 @property (nonatomic, copy) NSString *currentPlayId;
@@ -45,6 +51,8 @@ typedef NS_ENUM(NSInteger,JZDLoopState){
 //停止
 - (void)stopMusic;
 
+=======
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		147F85CD2361400F0092A721 /* WEWeatherTableViewCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 147F85CB2361400D0092A721 /* WEWeatherTableViewCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+=======
+		147F85CD2361400F0092A721 /* WEWeatherTableViewCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 147F85CB2361400D0092A721 /* WEWeatherTableViewCellModel.h */; };
+>>>>>>> e5ee1feca3be056b9d95d092b05bc1e86ab03cde
 		147F85CE2361400F0092A721 /* WEWeatherTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 147F85CC2361400E0092A721 /* WEWeatherTableViewCellModel.m */; };
 		147F85D0236140AA0092A721 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F85CF236140AA0092A721 /* CoreGraphics.framework */; };
 		14954327235FE74E00E034FD /* JZDjCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 14954325235FE74E00E034FD /* JZDjCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -303,6 +307,7 @@
 				1495447123601EFF00E034FD /* UIColor+JZDjHex.h in Headers */,
 				1495447E236020CA00E034FD /* WEColorConstant.h in Headers */,
 				149543A7235FEDA900E034FD /* JZDjAppDelegate.h in Headers */,
+				147F85CD2361400F0092A721 /* WEWeatherTableViewCellModel.h in Headers */,
 				149543ED235FF66F00E034FD /* NSNumber+HHMMSS.h in Headers */,
 				14954BA12360479400E034FD /* JZDjTabbarControllerProtocl.h in Headers */,
 				1495440C235FF6A800E034FD /* UIViewController+Swizzling.h in Headers */,
